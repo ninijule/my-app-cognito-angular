@@ -3,8 +3,6 @@ import { AppComponent } from './app.component';
 import {OidcSecurityService} from 'angular-auth-oidc-client';
 import {of} from 'rxjs';
 
-
-
 describe('AppComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
